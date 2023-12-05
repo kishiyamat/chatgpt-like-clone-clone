@@ -1,3 +1,8 @@
+# GitHubのPython設定にくわえる
+*.swp
+.DS_Store
+.streamlit/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
