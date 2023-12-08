@@ -2,7 +2,7 @@
 
 実際に動くものは以下のリンクがあります。
 
-- https://doc-chat-llm.streamlit.app/~/+/?embed=true#chatgpt-like-clone
+- https://doc-chat-llm.streamlit.app/
     - Streamlitが公開しているもの。
     - 10回のやり取りに制限されている。
 - https://chatgpt-like-clone-clone-kishiyamat.streamlit.app/
