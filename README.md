@@ -39,17 +39,17 @@ git clone git@github.com:kishiyamat/chatgpt-like-clone-clone.git
 cd chatgpt-like-clone-clone/
 ```
 
-## 2. 仮想環境の設定
+## 2. 仮想環境の作成
 
 次に、Pythonの仮想環境を作成してアクティベートします。
+本当はPyenvでPythonのバージョンを指定して
+Poetryを使ってライブラリを管理するのがよくある方法だと思います。
 
 ```bash
 python -V  # Python 3.9.10がインストールされていることを確認
 python -m venv venv
 activate venv/bin/python3.9
 ```
-
-## 3. 必要なライブラリのインストール
 
 プロジェクトで必要なライブラリをインストールします。
 
