@@ -77,7 +77,7 @@ streamlit run app.py
 
 これで、Streamlitを使ってChatGPTのクローンがローカル環境で動作するようになります。
 
-# ChatGPTクローンの作成方法（Streamlit Cloud版）
+# ChatGPTクローンの作成方法（Community Cloud版）
 
 それぞれが自由にカスタマイズできるようになることを目的とするため、
 このプロジェクトをまずは編集可能にします。
