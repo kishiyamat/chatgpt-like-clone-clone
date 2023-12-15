@@ -57,7 +57,7 @@ activate venv/bin/python3.9
 pip install -r requirements.txt
 ```
 
-## 4. OpenAI APIキーの設定
+## 3. OpenAI APIキーの設定
 
 OpenAIのAPIキーを取得し、プロジェクトに設定します。これは、アプリケーションがOpenAIのサービスにアクセスするために必要です。
 
@@ -68,7 +68,7 @@ echo 'OPENAI_API_KEY = "sk-HERECOMESYOUROPENAITOKEN"' > .streamlit/secret.toml
 # 注意: OPENAI_API_KEYの名前を変更しないでください（例: OPENAI_KEYやOPENAIAPIKEYは使用不可）
 ```
 
-## 5. アプリケーションの起動
+## 4. アプリケーションの起動
 
 最後に、Streamlitアプリケーションを起動します。
 
