@@ -24,13 +24,13 @@
 
 # ChatGPTクローンの作成方法（Streamlit版）
 
-## 0. ターミナルを開く
+## 1. ターミナルを開く
 
 - Windows: おそらくWSLを使うのが早いと思います。
 - MacOS: Spotlightからterminalで調べると「ターミナル.app」が使えます。
 - Linux: 一緒に頑張りましょう。
 
-## 1. プロジェクトのクローン
+## 2. プロジェクトのクローン
 
 まず、プロジェクトをあなたのマシンにクローンします。
 
@@ -39,7 +39,7 @@ git clone git@github.com:kishiyamat/chatgpt-like-clone-clone.git
 cd chatgpt-like-clone-clone/
 ```
 
-## 2. 仮想環境の作成
+## 3. 仮想環境の作成
 
 次に、Pythonの仮想環境を作成してアクティベートします。
 本当はPyenvでPythonのバージョンを指定して
@@ -57,7 +57,7 @@ activate venv/bin/python3.9
 pip install -r requirements.txt
 ```
 
-## 3. OpenAI APIキーの設定
+## 4. OpenAI APIキーの設定
 
 OpenAIのAPIキーを取得し、プロジェクトに設定します。これは、アプリケーションがOpenAIのサービスにアクセスするために必要です。
 
@@ -68,7 +68,7 @@ echo 'OPENAI_API_KEY = "sk-HERECOMESYOUROPENAITOKEN"' > .streamlit/secret.toml
 # 注意: OPENAI_API_KEYの名前を変更しないでください（例: OPENAI_KEYやOPENAIAPIKEYは使用不可）
 ```
 
-## 4. アプリケーションの起動
+## 5. アプリケーションの起動
 
 最後に、Streamlitアプリケーションを起動します。
 
