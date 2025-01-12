@@ -5,10 +5,6 @@
 - https://doc-chat-llm.streamlit.app/
     - Streamlitが公開しているもの。
     - 10回のやり取りに制限されている。
-- https://chatgpt-like-clone-clone-kishiyamat.streamlit.app/
-    - 岸山がcloneして公開しているもの。
-    - 特に制限はない。
-    - 岸山に請求が来る(ので、できれば上を使って欲しくはある)。
 
 このREADMEは、Streamlitを使用してChatGPTのクローンを作る方法を説明します。以下のステップに従ってください。
 基本的に最終的な成果物は
